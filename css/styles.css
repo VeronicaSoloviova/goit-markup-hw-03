@@ -294,8 +294,7 @@ a {
     color: var(--button-text);
 }
 
-.logo-first,
-.logo-footer {
+.footer-container {
     padding-top: 60px;
 }
 
