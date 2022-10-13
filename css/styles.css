@@ -161,18 +161,24 @@ a {
     padding: 10px 32px;
     min-width: 216px;
     margin-bottom: 200px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    
 }
 
 .hero-button:hover,
 .hero-button:focus {
     background-color: var(--accent-color);
     color: var(--button-text);
+    border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 
 /*==============================================section переваги========================================================*/
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -203,8 +209,6 @@ a {
 .advantages {
     display: flex;
     column-gap: 30px;
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 /*===============================================sections Чим ми займаємося + Наша команда=================================================*/
@@ -220,7 +224,6 @@ a {
 .images {
     display: flex;
     column-gap: 30px;
-    padding-bottom: 94px;
 }
 
 .team {
@@ -232,7 +235,6 @@ a {
     font-size: 36px;
     line-height: 1.2;
     text-align: center;
-    padding-top: 94px;
     margin-bottom: 50px;
 }
 
@@ -281,7 +283,6 @@ a {
     display: flex;
     column-gap: 30px;
     text-align: center;
-    padding-bottom: 94px;
 }
 
 /*================================================================footer====================================================*/
@@ -319,7 +320,7 @@ a {
     padding-bottom: 60px;
 }
 
-/*PORTFOLIO PAGE*/
+/*========================================================PORTFOLIO PAGE===================================================================*/
 
 .filter-button {
     background-color: var(--button-background);
@@ -330,21 +331,61 @@ a {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
+    padding: 6px 25px;
+    border-radius: 4px;
 }
 
 .filter-button:hover,
 .filter-button:focus {
     background-color: var(--accent-color);
-    color: var(--button-text)
+    color: var(--button-text);
+    border-radius: 4px;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+    padding-bottom: 50px;
+}
+
+.work-example {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.work {
+    flex-basis: calc((100% - 60px) / 3);
 }
 
 .work-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #EEEEEE;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #EEEEEE;
+    padding: 20px 24px 4px;
 }
 
 .work-description {
     color: var(--secondary-text-color);
     line-height: 1.9;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #EEEEEE;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #EEEEEE;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #EEEEEE;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
 }
